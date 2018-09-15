@@ -1,7 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cg-video',
-  templateUrl: './video-dashboard.component.html'
+  selector: 'cg-video-dashboard',
+  templateUrl: './video-dashboard.component.html',
+  styleUrls: ['./video-dashboard.component.css']
 })
-export class VideoDashboardComponent { }
+export class VideoDashboardComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

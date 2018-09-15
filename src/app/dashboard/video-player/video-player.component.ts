@@ -1,7 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cg-videoplayer',
-  templateUrl: './video-player.component.html'
+  selector: 'cg-video-player',
+  templateUrl: './video-player.component.html',
+  styleUrls: ['./video-player.component.css']
 })
-export class VideoPlayerComponent { }
+export class VideoPlayerComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
