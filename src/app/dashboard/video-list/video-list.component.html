@@ -1,8 +1,9 @@
 <div class ="videos">
 
   <ul class= "collection">
-    <li class= "collection-videos" *ngFor="let video of videos">
+    <li class= "collection-videos" *ngFor="let video of videoList">
    {{video.title}}, {{video.author}}
+
     <!--<pre>{{video | json}}</pre>-->
     </li>
   </ul>

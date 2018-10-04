@@ -1,0 +1,14 @@
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+#collection-videos{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  }
